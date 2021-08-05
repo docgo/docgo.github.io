@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-       repository: docgo/docgo
+       repository: ggodoc/ggodoc
     - name: Set up Go
       uses: actions/setup-go@v2
       with:
